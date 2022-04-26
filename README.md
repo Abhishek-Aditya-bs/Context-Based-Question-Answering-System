@@ -1,5 +1,7 @@
 # Context based Question-Answering-System using Transformers
 
+Test out our app: https://share.streamlit.io/abhishek-aditya-bs/context-based-question-answering-system/main
+
 Question answering is a task in information retrieval and Natural Language Processing (NLP) that investigates software that can answer questions asked by humans in natural language. In Extractive Question Answering, a context is provided so that the model can refer to it and make predictions on where the answer lies within the passage.
 
 This repository contains an implementation of the question-answering system. The main goal of the project is to learn working with transformers architecture by replacing the default head with a custom head suitable for the task, and fine-tuning using custom data. In addition, the project tries to improve on the ability to recognise tricky (impossible) questions which are part of SQuAD 2.0 dataset. This project doesn't use QA task head coming with HuggingFace transformers but creates the head architecture from scratch. The same architecture is used to fine-tune 2 models, as described below.
