@@ -1,4 +1,4 @@
-# Question-Answering-System-using-Transformers
+# Context based Question-Answering-System using Transformers
 
 Question answering is a task in information retrieval and Natural Language Processing (NLP) that investigates software that can answer questions asked by humans in natural language. In Extractive Question Answering, a context is provided so that the model can refer to it and make predictions on where the answer lies within the passage.
 
@@ -77,7 +77,7 @@ conda activate question_answering_env
 
 
 ```shell script
-cd Question-Answering-System-using-Transformers
+cd Context-Based-Question-Answering-System
 ./setup.sh
 ```
 
